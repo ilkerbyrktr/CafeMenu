@@ -4,13 +4,33 @@ p {
   text-align: center;
 }
 body {
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
   background-image: url(https://assets.epicurious.com/photos/63e54a0664e14d52936a2937/16:9/w_1920,c_limit/CoffeeSubscriptions_IG_V1_030922_6350_V1_final.jpg);
 }
+h1,
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
 .menu {
+  padding: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   background-color: burlywood;
+  max-width: 500px;
 }
 .flavor,
 .dessert {
@@ -22,5 +42,22 @@ body {
   width: 49%;
 }
 .item p {
+  font-size: 18px;
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.established {
+  font-style: italic;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+
+/*FOOTER*/
+footer {
+  font-size: 14px;
+}
+a {
+  color: black;
 }
